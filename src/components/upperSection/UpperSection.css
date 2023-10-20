@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.left-section{
+    width: 50%;
+    /* background: #5f0808; */
+}
+.right-section{
+    width: 50%;
+}
+.right-section img{
+    width: 500px;
+    margin-top: 100px;
+}

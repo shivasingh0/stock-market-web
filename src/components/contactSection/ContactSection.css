@@ -1,0 +1,37 @@
+.contactSection-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+    background-color: #010038;
+    gap: 10rem;
+}
+.contact-form{
+    width: 50%;
+}
+
+.people-feedback{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.user-icon{
+    font-size: 4rem;
+    background: #ffffff;
+    width: 7rem;
+    border-radius: 100%;
+    text-align: center;
+    color: #010038;
+    padding-bottom: 10px;
+    margin-left: 45%;
+}
+.comment{
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.employee-name{
+    margin-top: 10px;
+}

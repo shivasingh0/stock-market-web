@@ -1,7 +1,16 @@
-.typing-container{
+.typing{
     margin-top: 150px;
 }
+.heading-text{
+    font-size: x-large;
+    margin-bottom: 30px;
+    color: rgb(10, 10, 53);
+}
 .text{
-    color: rgb(255, 255, 255);
-    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
+    color: rgb(21, 21, 21);
+}
+.animated-text{
+    font-size: x-large;
+    color: rgb(10, 10, 53);
 }

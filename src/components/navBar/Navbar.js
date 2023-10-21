@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import {AiFillMobile} from "react-icons/ai"
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
           <a href="#">About us</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#">Pricing</a>
         </li>
         <li>
           <a href="#">Services</a>
@@ -27,6 +28,11 @@ function Navbar() {
           <a href="#">Contact Us</a>
         </li>
       </ul>
+      <div>
+        <div>
+         <AiFillMobile/> call now: +91xxxxxxxxxx
+        </div>
+      </div>
     </nav>
   );
 }

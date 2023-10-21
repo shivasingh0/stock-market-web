@@ -1,0 +1,60 @@
+.service-container{
+  background: #f1f1f1c6;
+}
+
+/* === removing default style ===*/
+.services-text {
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  /* heading styling */
+  .services-text {
+    --border-right: 6px;
+    --text-stroke-color: rgb(99, 99, 99);
+    --animation-color: #8d42b2;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+    text-align: center;
+    margin-left: 44.5%;
+  }
+  /* hover */
+  .services-text:hover .hover-text {
+    width: 10.5%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+    text-align: center;
+  }
+
+  /* Cards */
+  .flex-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
